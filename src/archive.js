@@ -57,13 +57,13 @@ class Archive
     return true;
   }
   
-  addFolder(path, name) {
+  addDirectory(path, name) {
     
     if(!fs.existsSync(path)) {
       return false;
     }
     
-    this.archive.folder(path, name);
+    this.archive.directory(path, name);
     
     return true;
   }

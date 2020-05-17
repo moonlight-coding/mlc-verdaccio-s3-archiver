@@ -57,7 +57,7 @@ async function main() {
   
   // add the folders required in the config
   for(let folder of config.folders) {
-    archive.addFolder(path.join(verdaccio_path, "storage", folder), path.join("storage", folder));
+    archive.addDirectory(path.join(verdaccio_path, "storage", folder), path.join("storage", folder));
   }
   
   // wait until the archive is created
