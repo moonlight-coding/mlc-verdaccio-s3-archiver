@@ -1,0 +1,4 @@
+/node_modules
+/verdaccio
+/backup-*.zip
+/archiver.conf.json

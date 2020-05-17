@@ -1,0 +1,9 @@
+{
+  "folders": ["private-packages"],
+  "bucket": "my-bucket",
+  "region": "eu-west-3",
+  "AWS": {  
+    "accessKeyId": "",
+    "secretAccessKey": ""
+  }
+}

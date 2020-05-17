@@ -1,0 +1,25 @@
+{
+  "name": "mlc-verdaccio-s3-archiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "if [ `npm config get registry` != \"https://registry.npmjs.org/\" ] ; then echo \"Your registry MUST be https://registry.npmjs.org/\" ; exit 1 ; else exit 0 ; fi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pierre-Emmanuel Lallemant <pe.lallemant@hotmail.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^4.0.1",
+    "aws-sdk": "^2.678.0",
+    "moment": "^2.25.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonlight-coding/mlc-verdaccio-s3-archiver.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
