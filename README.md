@@ -4,6 +4,14 @@ Builds an archive of your verdaccio instance, then backup it to AWS S3.
 
 To import a backup in an empty installation, just extract the backup in the `verdaccio/` folder and run verdaccio.
 
+Usefull to backup your private packages.
+
+## WARNING
+
+Do not backup the public packages ! You would backup public packages, pure waste and could become expensive.
+
+In your verdaccio config.yaml, make sure public and private packages have a `storage` field and that it's not targeting the same folder.
+
 ## Install
 
 `npm i mlc-verdaccio-s3-archiver`
