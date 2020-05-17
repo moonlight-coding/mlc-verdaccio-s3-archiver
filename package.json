@@ -15,6 +15,9 @@
     "aws-sdk": "^2.678.0",
     "moment": "^2.25.3"
   },
+  "bin": {
+    "mlc-verdaccio-s3-archiver": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moonlight-coding/mlc-verdaccio-s3-archiver.git"
