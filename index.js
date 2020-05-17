@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const Archive = require("./src/archive.js");
